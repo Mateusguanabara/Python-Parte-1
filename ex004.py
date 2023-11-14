@@ -1,0 +1,6 @@
+a = input ('Digite um nome?')
+print('Seu tipo primitivo é ',type(a))
+print('Ele tem espaço ?',a.isspace())
+print('é um núm?',a.isnumeric())
+print('é alfabetico?',a.isalpha())
+print('è alfanúm?',a.isalnum())
